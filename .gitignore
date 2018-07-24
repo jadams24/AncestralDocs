@@ -1,0 +1,12 @@
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# ignore .metadata folder
+python/workspace/
+*.project
+*.pydevproject
+*.pyc
+
