@@ -9,4 +9,5 @@ python/workspace/
 *.project
 *.pydevproject
 *.pyc
+*/migrations/
 
