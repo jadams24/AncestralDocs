@@ -1,0 +1,9 @@
+{% extends "people/header.html" %}
+
+{% block content %}
+	<h3>Hello there!</h3>
+	{% for doc in object_list %}
+<!-- 		<h5>{{doc.document_date|date:"Y-m-d"}} <a href="{{doc.docuemnt_location}}">{{doc.document_title}}</a></h5> -->
+		<h5>{{doc.document_date|date:"Y-m-d"}} <a href="static/people/documents/LetterToFerdinandWalker-18620710.pdf">{{doc.document_title}}</a></h5>
+	{% endfor %}
+{% endblock %}

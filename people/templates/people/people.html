@@ -2,6 +2,6 @@
 
 {% block content %}
 	{% for person in object_list %}
-		<h5><a href="/people/{{person.id}}">{{person.first_name}} {{person.last_name}}</a></h5>
+		<h5><a href="/people/documentview?id={{person.id}}">{{person.first_name}} {{person.last_name}}</a></h5>
 	{% endfor %}
 {% endblock %}
